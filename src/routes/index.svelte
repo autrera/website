@@ -76,7 +76,7 @@
 
 	<h3>Frontend</h3>
 	<ul>
-		<li>React <i>~1 year</i></li>
+		<li>React, Nextjs, Material UI <i>~1 year</i></li>
 		<li>JS, jQuery, Backbone</li>
 		<li>CSS, Bootstrap 3-4, Material Design Lite, SASS, BEM</li>
 	</ul>
@@ -89,16 +89,16 @@
 		<li>Apache, NGiNX</li>
 		<li>Heroku <i>~ 1 year</i></li>
 		<li>AWS, Digital Ocean, Linode, Google Cloud</li>
+		<li>Zeit now</li>
 	</ul>
 
 	<h2>Prototypes and experiments</h2>
 	<ul>
-		<li>CloudFlare Workers</li>
-		<li>SvelteJs</li>
+		<li>SvelteJs, Sapper</li>
 		<li>C, Raylib</li>
-		<li>Emcripsten</li>
 		<li>Crystal, Kemal, Amber</li>
 		<li>Go, Iris, Echo</li>
+		<li>Emcripsten</li>
 	</ul>
 
 	<h2>Languages</h2>
