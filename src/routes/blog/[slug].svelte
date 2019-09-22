@@ -18,6 +18,28 @@
 </script>
 
 <style>
+	h1 {
+		color: #d16943;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-top: 2rem;
+	}
+
+	p {
+		font-size: 0.825rem;
+		color: rgba(0, 0, 0, 0.65);
+	}
+
+	a {
+		text-transform: capitalize;
+	}
+
+	.content {
+		padding: 5rem 2rem;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
 	/*
 		By default, CSS is locally scoped to the component,
 		and any unused styles are dead-code-eliminated.
@@ -57,8 +79,14 @@
 	<title>{post.title}</title>
 </svelte:head>
 
-<h1>{post.title}</h1>
-
 <div class='content'>
+	<h1>{post.title}</h1>
+	<p>
+		Posted in 
+		<a rel='prefetch' href='blog/categories/{post.category}'>
+			{post.category}
+		</a>
+		on {post.posted_at}
+	</p>
 	{@html post.html}
 </div>
